@@ -1,0 +1,15 @@
+{
+  "name": "frontend-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vesurbag/frontend-env.git",
+  "author": "gabrusevs <gabrusevs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-less": "^3.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
