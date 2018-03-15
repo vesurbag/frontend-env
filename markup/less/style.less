@@ -1,0 +1,58 @@
+@import './parts/_reset';
+
+@color_yellow: #e6c71d;
+@color_pink: #962168;
+@color_blue: #29226f;
+@color_black: #333;
+@color_white: #fff;
+
+@font_family: 'Fira Sans', sans-serif;
+@main_gradient: linear-gradient(45deg,#101d4f 0,#48cfae 100%);
+@border_radius: 4px;
+@shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
+@shadow_text: 2px 2px 2px rgba(0, 0, 0, .8);
+@shadow_text_color: -2px -2px 1px @color_blue;
+
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&subset=cyrillic');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: @color_blue;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+body {
+  color: @color_blue;
+  background-color: @color_white;
+  font-family: @font_family;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+
+  &_flex {
+    display: flex;
+  }
+}
+
+.footer {
+  background-color: @color_pink;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

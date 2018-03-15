@@ -6,10 +6,14 @@
   "author": "gabrusevs <gabrusevs@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gulp-less": "^3.4.0"
-  },
-  "devDependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1"
-  }
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-less": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-pug": "^3.3.0",
+    "gulp-util": "^3.0.8"
+  },
+  "devDependencies": {}
 }
